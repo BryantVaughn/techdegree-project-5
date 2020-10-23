@@ -32,3 +32,7 @@ main {
 	grid-template-columns: repeat(auto-fit, 200px);
 	grid-gap: 33px;
 }
+
+.hidden {
+	display: none;
+}
