@@ -1,14 +1,29 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
 .container {
-	max-width: 1200px;
+	width: 90%;
+	max-width: 900px;
 	margin: auto;
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .search {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 0 10px;
+	height: 2.5em;
 	width: 50%;
 }
 
 .main-content {
+	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(4, minmax(200px, 1fr));
-	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, 200px);
+	grid-gap: 33px;
 }
