@@ -1,3 +1,14 @@
 .container {
 	max-width: 1200px;
+	margin: auto;
+}
+
+.search {
+	width: 50%;
+}
+
+.main-content {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(200px, 1fr));
+	grid-gap: 10px;
 }
