@@ -3,14 +3,18 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .container {
 	width: 90%;
 	max-width: 900px;
 	margin: auto;
 	margin-bottom: 2em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .search {
@@ -19,9 +23,10 @@
 	padding: 0 10px;
 	height: 2.5em;
 	width: 50%;
+	outline: none;
 }
 
-.main-content {
+.gallery {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 200px);
